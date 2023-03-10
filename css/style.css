@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+li {
+  min-height: 5rem;
+  min-width: 100%;
+}
+
+.container {
+  min-width: 80%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
