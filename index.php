@@ -8,41 +8,33 @@
       <title>Home | Pannenformkoeken</title>
   </head>
   <body>
-    <main class="vh-100 vw-100 flex flex-center">
-      <div class="container vw-80">
-        <ol>
-          <li class="flex flex-center">
-            Beleg 1
-            Beleg 2
-            Beleg 3
-            Hoevaak het voorkomt
-          </li>
-          <li class="flex flex-center">
-            Beleg 1
-            Beleg 2
-            Beleg 3
-            Hoevaak het voorkomt
-          </li>
-          <li class="flex flex-center">
-            Beleg 1
-            Beleg 2
-            Beleg 3
-            Hoevaak het voorkomt
-          </li>
-          <li class="flex flex-center">
-            Beleg 1
-            Beleg 2
-            Beleg 3
-            Hoevaak het voorkomt
-          </li>
-          <li class="flex flex-center">
-            Beleg 1
-            Beleg 2
-            Beleg 3
-            Hoevaak het voorkomt
-          </li>
-        </ol>
-      </div>
+    <header>
+      <h1>Pannenformkoeken</h1>
+    </header>
+    <main>
+      <ol>
+        <li>
+          Beleg 1
+          Hoevaak het voorkomt
+        </li>
+        <li>
+          Beleg 1
+          Hoevaak het voorkomt
+        </li>
+        <li>
+          Beleg 1
+          Hoevaak het voorkomt
+        </li>
+        <li>
+          Beleg 1
+          Hoevaak het voorkomt
+        </li>
+        <li>
+          Beleg 1
+          Hoevaak het voorkomt
+        </li>
+      </ol>
+      <button>I am a buttonn</button>
     </main>
   </body>
 </html>
