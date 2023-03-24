@@ -1,0 +1,45 @@
+header {
+  display: block;
+}
+
+header > a {
+  font-size: 3rem;
+  cursor: pointer;
+}
+
+li {
+  display: flex;
+}
+
+.options {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1 1 1rem;
+}
+
+.options a > button {
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  border: 0.1rem solid black;
+  border-radius: 10%;
+  font-family: roboto-regular;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.text {
+  flex: 1 1 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.btn-delete {
+  background-color: red;
+}
+
+.btn-edit {
+  background-color: #3845ff;
+}
