@@ -12,14 +12,15 @@ html {
 
 body {
   box-sizing: border-box;
+  background-color: #1e1e1e;
+  color: white;
 }
 
 header {
-  min-height: 20%;
-  background-image: url(../img/background-image.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
 }
 
 main {
@@ -27,30 +28,35 @@ main {
 }
 
 ol {
+  padding: 2rem;
+  border: 0.2rem solid red;
   list-style: none;
   counter-reset: num;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 li {
   min-width: 100%;
   counter-increment: num;
-
   font-size: 1.5rem;
-}
-
-li::before {
-  content: counter(num) ". ";
-  color: brown;
-  font-size: 3.5rem;
 }
 
 /* Classes */
 
-.container {
-  min-width: 80%;
+/* Id's */
+
+#buttons {
+  display: flex;
+  flex-direction: row;
 }
 
-/* Id's */
+#menu {
+  justify-content: flex-end;
+}
 
 /* Selectors */
 
@@ -62,15 +68,28 @@ main > * {
   flex-direction: column;
 }
 
-header h1 {
-  color: white;
+button:hover {
+  cursor: pointer;
 }
 
-/* .flex {
-  display: flex;
+li::before {
+  content: counter(num) ". ";
+  color: #ef6a41;
+  font-size: 3.5rem;
 }
 
-.flex-center {
-  justify-content: center;
-  align-items: center;
-} */
+header > * {
+  display: inline-flex;
+  flex: 1 1 1rem;
+}
+
+#menu > * {
+  margin-right: 1rem;
+  transition: color 0.4s;
+}
+
+#menu > *:hover {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}

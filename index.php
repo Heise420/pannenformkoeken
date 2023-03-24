@@ -9,7 +9,13 @@
   </head>
   <body>
     <header>
-      <h1>Pannenformkoeken</h1>
+      <div id="title">
+        <h1>Pannenformkoeken</h1>
+      </div>
+      <div id="menu">
+        <a href="./form.php"><h2>Formulier</h2></a>
+        <a href="./history.php"><h2>Geschiedenis</h2></a>
+      </div>
     </header>
     <main>
       <ol>
@@ -34,7 +40,6 @@
           Hoevaak het voorkomt
         </li>
       </ol>
-      <button>I am a buttonn</button>
     </main>
   </body>
 </html>
