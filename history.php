@@ -15,18 +15,8 @@
     </header>
     <ol>
         <li>
-            <div class="text">
-                <p>Naam: Voornaam Achternaam</p>
-                <p>Beleg: Beleg 1</p>
-            </div>
-            <div class="options">
-                <a href="./edit.php?id=1"><button class="btn-edit">
-                    <i class="fa-regular fa-pen-to-square"></i>
-                </button></a>
-                <a href="./delete.php?id=1"><button class="btn-delete">
-                    <i class="fa-sharp fa-solid fa-trash"></i>
-                </button></a>
-            </div>
+            <p>Naam: Voornaam Achternaam</p>
+            <p>Beleg: Beleg 1</p>
         </li>
     </ol>
 </body>
