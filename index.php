@@ -18,7 +18,7 @@
       </div>
     </header>
     <main>
-      <ol>
+      <ol id="ranking">
         <li>
           Beleg 1
           Hoevaak het voorkomt
